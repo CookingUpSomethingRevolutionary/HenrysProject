@@ -12,16 +12,34 @@ body {
     margin: 0 auto;
 }
 
-h1,
-h3 {
+.hero-section,
+.about-section,
+.buttons-section {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.hero-section h1,
+.about-section h3 {
     text-align: center;
+    margin: 0;
+}
+
+.hero-section p,
+.section-prompt {
+    text-align: center;
+    margin: 0.5rem 0 0;
+    color: #ffccdb;
 }
 
 .soundboard {
     display: flex;
     gap: 1rem;
     overflow-x: auto;
-    padding: 1rem 0.25rem 1.25rem;
+    padding: 0.5rem 0.25rem 0.75rem;
     scroll-behavior: smooth;
     scrollbar-width: thin;
     scrollbar-color: #ff4d6d #1a1a1a;
