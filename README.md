@@ -4,7 +4,7 @@ This is a simple web page that showcases a collection of funny sound effect butt
 
 ## What this page includes
 - A title section for the page heading
-- An "About Me" section with a short introduction
+- An "About Me" section with 3 of Henry's favroite things.
 - A scrollable soundboard area with embedded sound buttons
 
 ## Files
